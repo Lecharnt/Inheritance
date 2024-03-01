@@ -1,0 +1,20 @@
+public class DinnerParty extends Party {
+    private int DinnerMen;
+    private int DinnerCho;
+
+    public int getDinnerNum() {
+        return DinnerMen;
+    }
+
+    public void setDinnerNum(int dinnerChoice) {
+        this.DinnerMen = dinnerChoice;
+    }
+
+    public int getDinnerCho() {
+        return DinnerCho;
+    }
+
+    public void setDinnerCho(int DinnerCho) {
+        this.DinnerCho = DinnerCho;
+    }
+}
